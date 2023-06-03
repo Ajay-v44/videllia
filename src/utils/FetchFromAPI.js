@@ -1,6 +1,6 @@
 import axios from "axios";
-const axios = require('axios');
-const Base_URL='https://youtube-v31.p.rapidapi.com/search';
+
+const Base_URL='https://youtube-v31.p.rapidapi.com';
 const options = {
   params: {
     
@@ -18,9 +18,8 @@ try {
 } catch (error) {
 	console.error(error);
 }
-
-export const fetchFromAPI=async(url)=>{
-    const {data}= await axios.get('$(Base_URL/$(url)',
-    options);
+export const fetchFromAPI = async (url) => {
+    const { data } = await axios.get(`${Base_URL}/${url}`, options);
+  
     return data;
-}
+  };
