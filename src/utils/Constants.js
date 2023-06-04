@@ -11,17 +11,19 @@ import GraphicEqIcon from '@mui/icons-material/GraphicEq';
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
+import People from '@mui/icons-material/People';
+import TrendingUp from '@mui/icons-material/TrendingUp';
 
 export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
 
 export const categories = [
   { name: 'New', icon: <HomeIcon />, },
-  { name: 'Trending', icon: <CodeIcon />, },
-  { name: 'Coding', icon: <CodeIcon />, },
-  { name: 'ReactJS', icon: <CodeIcon />, },
-  { name: 'NextJS', icon: <CodeIcon />, },
+  { name: 'Trending', icon: <TrendingUp/>, },
+ 
   { name: 'Music', icon: <MusicNoteIcon /> },
   { name: 'Education', icon: <SchoolIcon />, },
+  { name: 'Coding', icon: <CodeIcon />, },
+  { name: 'Tech Travel Eat', icon: <People />, },
   { name: 'Podcast', icon: <GraphicEqIcon />, },
   { name: 'Movie', icon: <OndemandVideoIcon />, },
   { name: 'Gaming', icon: <SportsEsportsIcon />, },
@@ -32,11 +34,12 @@ export const categories = [
   { name: 'Comedy', icon: <TheaterComedyIcon />, },
   { name: 'Gym', icon: <FitnessCenterIcon />, },
   { name: 'Crypto', icon: <DeveloperModeIcon />, },
+ 
 ];
 
-export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';
+export const demoThumbnailUrl = 'https://ajayv.netlify.app/images/c4.jpg';
 export const demoChannelUrl = '/channel/UCmXmlB4-HJytD7wek0Uo97A';
 export const demoVideoUrl = '/video/GDa8kZLNhJ4';
-export const demoChannelTitle = 'JavaScript Mastery';
-export const demoVideoTitle = 'Build and Deploy 5 JavaScript & React API Projects in 10 Hours - Full Course | RapidAPI';
-export const demoProfilePicture = 'http://dergipark.org.tr/assets/app/images/buddy_sample.png'
+export const demoChannelTitle = 'Ajay v';
+export const demoVideoTitle = 'This webapplication is Developed By Ajay';
+export const demoProfilePicture = 'https://ajayv.netlify.app/images/c4.jpg'
